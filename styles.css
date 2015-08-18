@@ -1,0 +1,73 @@
+body{
+  font-family: Comfortaa, "Poiret One", sans-serif;
+  background-color: #e5dcb9;
+  text-align: center;
+}
+span {
+  font-size: 15px
+  font-weight: bold;
+}
+h1 {
+  padding-top: 70px;
+}
+h2 {
+  margin: 20px 0 20px 0;
+  width: 100%;
+}
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 15px auto 15px auto;
+  width: 100%;
+}
+li {
+  font-family: Comfortaa, "Poiret One", sans-serif;
+  background-color: #FFF;
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid #AAA;
+}
+legend {
+  font-size: 20px;
+}
+.stylenav{
+  background-color: rgba(10, 82, 127, 0.43);
+}
+.input-group-addon:first-child {
+  padding-left: 20px;
+}
+.no-border {
+  border: 0 none;
+}
+.form-buttons{
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttons{
+  margin: 10px;
+}
+.listItem {
+  background-color: #0a527f;
+  margin: 15px 0 0 0;
+  border: 2px solid #FFF;
+  border-radius: 0;
+  width: 100%;
+}
+.bad {
+  background-color: #FF4719;
+}
+.satisfactory {
+  background-color: #FFFF66;
+}
+.good {
+  background-color: #66FF66;
+}
+.salsAndTotal {
+  margin-top: 10px;
+}
+#EIF {
+  font-size: 25px;
+}
