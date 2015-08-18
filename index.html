@@ -19,14 +19,22 @@
         <div class="btn-group buttons" role="group">
           <button class="btn btn-default" id="Populate">Display All Employees</button>
           <button class="btn btn-default" id="unPopulate">Hide All Employees</button>
+
           <div class="btn-group" role="group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sort All</button>
             <ul class="dropdown-menu">
-              <a href="#"><button id="SortA" class="form-control no-border">Name: Ascending</button></a>
-              <a href="#"><button id="SortD" class="form-control no-border">Name: Descending</button></a>
-              <a href="#"><button id="SortTitle" class="form-control no-border">Title: Ascending</button></a>
+              <li><button id="SortA" class="form-control no-border"><span class="glyphicon glyphicon-sort-by-alphabet" aria-hidden="true">
+              </span>
+                Ascending
+              </button></li>
+              <li><button id="SortD" class="form-control no-border"><span class="glyphicon glyphicon-sort-by-alphabet-alt" aria-hidden="true">
+              </span>
+                Descending
+              </button></li>
+              <li><button id="SortTitle" class="form-control no-border">Title: Ascending</button></li>
             </ul>
           </div>
+
           <button class="btn btn-default" id="RandEmp">Generate Random Employee</button>
           <button class="btn btn-default" id="ClearAll">Delete All Employees</button>
         </div>

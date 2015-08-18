@@ -144,11 +144,11 @@ var main = function() {
                       id: emp.lName + emp.instance});
     $hideButton.html('Hide');
     $myListItem.attr({class: 'empListItem'});
-    var listtext = $('<li id="' + emp.fName + '">' + emp.lName + ", " + emp.fName +
-                     '<li>Emp. Num: ' + emp.empNum +
-                     '<li>Title: ' + emp.title +
+    var listtext = $('<li id="' + emp.fName + '" class="empLi">' + emp.lName + ", " + emp.fName +
+                     '<li class="empLi">Emp. Num: ' + emp.empNum +
+                     '<li class="empLi">Title: ' + emp.title +
                      reviewColor(emp) + 'Review Score: ' + emp.review +
-                     '<li>Salary: $' + emp.salary.toLocaleString() + '</li>');
+                     '<li class="empLi">Salary: $' + emp.salary.toLocaleString() + '</li>');
     $myListItem.append(listtext);
     $myListItem.append($clearButton);
     $myList.append($myListDiv.append($myListItem.append($hideButton)));
@@ -198,17 +198,17 @@ var main = function() {
    function reviewColor(obj){
      switch(parseInt(obj.review)){
       case 1:
-        return '<li class="bad"> ';
+        return '<li class="bad empLi"> ';
       case 2:
-        return '<li class="bad"> ';
+        return '<li class="bad empLi"> ';
       case 3:
-        return '<li class="satisfactory">';
+        return '<li class="satisfactory empLi">';
       case 4:
-        return '<li class="good">';
+        return '<li class="good empLi">';
       case 5:
-        return '<li class="good">';
+        return '<li class="good empLi">';
       default:
-        return '<li>';
+        return '<li class="empLi">';
      }
    }
    //update the total of salaries being displayed

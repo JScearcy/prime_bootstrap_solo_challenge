@@ -20,7 +20,7 @@ ul {
   margin: 15px auto 15px auto;
   width: 100%;
 }
-li {
+.empLi {
   font-family: Comfortaa, "Poiret One", sans-serif;
   background-color: #FFF;
   display: inline;
@@ -39,9 +39,10 @@ legend {
 .input-group-addon:first-child {
   padding-left: 20px;
 }
-.no-border {
+/*.no-border {
   border: 0 none;
-}
+}*/
+
 .form-buttons{
   margin-left: auto;
   margin-right: auto;
@@ -70,4 +71,7 @@ legend {
 }
 #EIF {
   font-size: 25px;
+}
+#ClearAll {
+  margin-left: 15px;
 }
